@@ -1,0 +1,308 @@
+<!DOCTYPE html><html lang="id"><head>
+
+<meta charset="utf-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=c37e8949-6f14-45ca-a5a3-dc4956f6238d
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>I'm Sorry Princess❤️‍🩹</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;family=Dancing+Script:wght@700&amp;display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- =========================
+BACKGROUND
+========================= -->
+
+<div class="bg-blur bg1"></div>
+<div class="bg-blur bg2"></div>
+
+<div id="floating-hearts"></div>
+
+<div class="sparkles"></div>
+
+<!-- =========================
+MUSIC
+========================= -->
+
+<audio id="bgm" loop="">
+
+<source src="media/musik.mp3" type="audio/mpeg">
+
+</audio>
+
+<!-- =========================
+PAGE 1
+OPENING
+========================= -->
+
+<section class="page active" id="page1">
+
+<div class="welcome">
+
+<img src="images/icon1.png" class="lotso lotso-big">
+
+<h1>
+
+Hi Sayangg
+
+</h1>
+
+<p>
+
+Aku tau akhir-akhir ini aku banyak bikin hati kecil kamu sedih. Aku cuma minta waktu sebentar buat baca ini.
+
+</p>
+
+<button id="startBtn">
+
+Buka Surat 💌
+
+</button>
+
+</div>
+
+</section>
+
+<!-- =========================
+PAGE 2
+ENVELOPE
+========================= -->
+
+<section class="page" id="page2">
+
+    <div class="heart-meter">
+
+        <div class="meter-text">
+            <span>Hati Kamu</span>
+            <span id="meterValue">0%</span>
+        </div>
+
+        <div class="meter">
+            <div class="meter-fill" id="meterFill"></div>
+        </div>
+
+    </div>
+
+    <div class="envelope-area">
+
+        <img src="images/envelope.png" alt="Envelope" id="envelope" class="envelope-img">
+
+    </div>
+
+</section>
+
+<!-- =========================
+PAGE 3
+LOTSO
+========================= -->
+
+<section class="page" id="page3">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+25%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter25"></div>
+
+</div>
+
+</div>
+
+<img src="images/icon2.png" class="lotso">
+
+<p>
+
+aku minta maaf karena udah bikin kamu bete dan marah tolong maafin aku ya cantik
+</p>
+
+<button class="next">
+
+Next 🤍
+
+</button>
+
+</section>
+
+<!-- =========================
+PAGE 4
+LOTSO
+========================= -->
+
+<section class="page" id="page4">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+50%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter50"></div>
+
+</div>
+
+</div>
+
+<img src="images/icon3.png" class="lotso">
+
+
+<p>
+
+aku minta maaf ya, kadang aku kurang ngertiin kamu, bikin kamu marah, aku minta maaf ya kalo aku ada salah, aku itu sayang banget sama kamu. 
+
+</p>
+
+<button class="next">
+
+Next 🤍
+
+</button>
+
+</section>
+
+<!-- =========================
+PAGE 5
+LETTER
+========================= -->
+
+<section class="page" id="page5">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+75%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter75"></div>
+
+</div>
+
+</div>
+
+<div class="letter">
+
+<div class="letter-scroll">
+
+<p>
+
+kamu semangat yaa jalanin harinya semangat trus jangan pernah lelah yaa aku di sini selalu suport kamu dalam hal apapun, semoga apa yang kamu mau semuanya tercapai sehat selalu yaa cantik
+
+</p>
+
+
+<p>
+Aku sayang kamu. Selalu ❤️
+</p>
+
+</div>
+
+<button class="next">
+
+Aku Janji Berubah 🤍
+
+</button>
+
+</div>
+
+</section>
+
+<!-- =========================
+PAGE 6
+ENDING
+========================= -->
+
+<section class="page" id="page6">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+100%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter100"></div>
+
+</div>
+
+</div>
+
+<img src="images/icon4.png" class="lotso happy">
+
+<p>
+
+Terima kasih sudah membaca semuanya. Semoga setelah ini kita bisa sama-sama memperbaiki semuanya.❤️
+
+</p>
+
+<div class="btn-group">
+
+<button id="hugBtn">
+
+Peluk Virtual🫂
+
+</button>
+
+<button id="restartBtn">
+
+Restart💗
+
+</button>
+
+</div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+
+<script async="" src="js/hud.js" data-nf-variant="public" data-netlify-site-id="c37e8949-6f14-45ca-a5a3-dc4956f6238d" data-app-host="app.netlify.com" data-account-tier="free"></script>
+</body></html>
